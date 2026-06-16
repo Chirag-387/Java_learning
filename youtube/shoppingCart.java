@@ -1,3 +1,5 @@
+package youtube;
+
 import java.util.Scanner;
 
 public class shoppingCart {

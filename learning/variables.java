@@ -1,4 +1,4 @@
-package youtube;
+package learning;
 
 public class variables {
     public static void main(String[] args) {

@@ -37,7 +37,7 @@ public class math {
 
         c = Math.sqrt(Math.pow(a, 2) + Math.pow(b, 2));
 
-        System.out.println(c);
+        System.out.printf("The value is : %.2fcm", c);
 
         input.close();
     }

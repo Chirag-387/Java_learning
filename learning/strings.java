@@ -11,10 +11,10 @@ public class strings {
         char letter = name.charAt(0); // gives the output of a letter of a string at the given index.
         System.out.println(letter);
 
-        int index = name.indexOf('o'); // gives the index of first occurence of 'o'.
+        int index = name.indexOf('o'); // gives the index of first occurrence of 'o'.
         System.out.println(index);
 
-        int lastIndex = name.lastIndexOf('n'); // gives the index of last occurence of 'n'.
+        int lastIndex = name.lastIndexOf('n'); // gives the index of last occurrence of 'n'.
         System.out.println(lastIndex);
 
         name = name.toUpperCase(); // changes the whole string to uppercase.
@@ -35,14 +35,14 @@ public class strings {
         String name3 = " ";
         System.out.println(name3.isEmpty()); // gives false
 
-        System.out.println(name3.contains(" ")); // gives true if character is avaliable else false.
+        System.out.println(name3.contains(" ")); // gives true if character is available else false.
 
         System.out.println(name.equals(name2)); // gives true if equal else false.
         System.out.println(name.equals("no name"));
 
         System.out.println(name.equalsIgnoreCase("NO NAME")); // ignores if a string or a character is upper or lower case, just check if they are same character.
 
-        
+
 
     }
 }

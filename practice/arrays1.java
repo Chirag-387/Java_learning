@@ -274,6 +274,7 @@ public class arrays1 {
         // System.out.printf("Number of negative elements in an array is %d.\n", negCount);
         // System.out.printf("Number of zeroes in an array is %d.\n", zero);
 
+
         scanner.close();
 
     }

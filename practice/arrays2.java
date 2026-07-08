@@ -251,7 +251,160 @@ public class arrays2 {
 
         // 7. rotate the array to left by k position
 
-        // pending...
+        // System.out.print("Enter the number of elements in an array: ");
+        // int numOfElems = scanner.nextInt();
+
+        // int[] nums = new int[numOfElems];
+
+        // System.out.println();
+
+        // System.out.print("Enter the position to rotate the element: ");
+        // int k = scanner.nextInt();
+
+        // System.out.println();
+
+        // for(int i = 0; i < numOfElems; i++) {
+        //     System.out.print("Enter the element value: ");
+        //     nums[i] = scanner.nextInt();
+        // }
+        
+        // System.out.println();
+
+        // // array before rotation
+
+        // for(int i = 0; i < numOfElems; i++) {
+        //     System.out.printf("%d ", nums[i]);
+        // }
+
+        // System.out.println();
+
+        // // array after rotation
+
+
+        // for(int i = 0; i < k; i++) {
+        //     int first = nums[0];
+        //     for(int j = 0; j < numOfElems - 1; j++) {
+        //         nums[j] = nums[j + 1];
+        //     }
+        //     nums[numOfElems - 1] = first;
+        // }
+
+        // for(int i = 0; i < numOfElems; i++) {
+        //     System.out.printf("%d ", nums[i]);
+        // }
+
+        // System.out.println();
+
+
+        // 8. rotate the array to right by k position
+
+        // System.out.print("Enter the number of elements in an array: ");
+        // int numOfElems = scanner.nextInt();
+
+        // System.out.println();
+
+        // System.out.print("Enter the position to rotate the array: ");
+        // int k = scanner.nextInt();
+
+        // System.out.println();
+
+        // int[] nums = new int[numOfElems];
+
+        // for(int i = 0; i < numOfElems; i++) {
+        //     System.out.print("Enter the value of the array: ");
+        //     nums[i] = scanner.nextInt();
+        // }
+
+        // System.out.println();
+
+        // // array before rotation
+
+        // for(int i = 0; i < numOfElems; i++) {
+        //     System.out.printf("%d ", nums[i]);
+        // }
+
+        // System.out.println();
+
+        // // array after rotation
+
+        // for(int i = 0; i < k; i++) {
+        //     int last = nums[numOfElems - 1];
+        //     for(int j = numOfElems - 1; j > 0; j--) {
+        //         nums[j] = nums[j - 1];
+        //     }
+        //     nums[0] = last;
+        // }
+
+        // for(int i = 0; i < numOfElems; i++) {
+        //     System.out.printf("%d ", nums[i]);
+        // }
+
+
+        // 9. Find frequency of a element.
+
+        // System.out.print("Enter the number of elements in an array: ");
+        // int numOfElems = scanner.nextInt();
+
+        // System.out.println();
+
+        // int[] nums = new int[numOfElems];
+
+        // for(int i = 0; i < numOfElems; i++) {
+        //     System.out.print("Enter the element: ");
+        //     nums[i] = scanner.nextInt();
+        // }
+
+        // System.out.println();
+
+        // System.out.printf("Enter the number to find its frequency: ");
+        // int num = scanner.nextInt();
+
+        // System.out.println();
+
+        // int freq = 0;
+
+        // for(int i = 0; i < numOfElems; i++) {
+        //     if(nums[i] == num) {
+        //         freq++;
+        //     }
+        // }
+
+        // System.out.println();
+
+        // System.out.printf("The total freq of %d is %d.\n", num, freq);
+
+
+        // 10. Print duplicate elements.
+
+        // System.out.print("Enter the number of elements in an array: ");
+        // int numOfElems = scanner.nextInt();
+
+        // System.out.println();
+
+        // int[] nums = new int[numOfElems];
+
+        // for(int i = 0; i < numOfElems; i++) {
+        //     System.out.print("Enter a element: ");
+        //     nums[i] = scanner.nextInt();
+        // }
+
+        // System.out.println();
+
+        // boolean duplicates = false;
+
+        // for(int i = 0; i < numOfElems; i++) {
+            
+        //     int temp = 0;
+
+        //     for(int j = i + 1; j < numOfElems - 1; j++) {
+        //         if(nums[i] == nums[j]) {
+        //             duplicates = true;
+        //             temp = nums[i];
+        //             System.out.printf("%d ", nums[i]);
+        //         }
+        //     }
+
+        // }
 
         scanner.close();
     }

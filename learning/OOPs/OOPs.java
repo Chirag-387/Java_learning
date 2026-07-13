@@ -9,7 +9,7 @@ public class OOPs {
                   It is a reference data type.
         */
 
-        Car car = new Car();
+        // Car car = new Car();
 
         // car.isRunning = true;
 

@@ -20,11 +20,11 @@ public class superKeyword {
 
         Dog dog = new Dog();
         Cat cat = new Cat();
-        Fish fish = new Fish();
+        // Fish fish = new Fish();
 
         dog.move();
         cat.move();
-        fish.move();
+        // fish.move();
 
     }
 }

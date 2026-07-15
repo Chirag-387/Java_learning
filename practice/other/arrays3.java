@@ -131,7 +131,69 @@ public class arrays3 {
 
         // 4. Finding missing values from 1 to n.
 
-        // pending...
+        // System.out.print("Enter the value to print the number from 1 to n: ");
+        // int n = scanner.nextInt();
+
+        // System.out.println();
+
+        // int[] arr = new int[n];
+
+        // for(int i = 0; i < n; i++) {
+        //     System.out.print("Enter a element: ");
+        //     arr[i] = scanner.nextInt();
+        // }
+
+        // System.out.println();
+
+        // int[] orArray = new int[n];
+
+        // for(int i = 0; i < n; i++) {
+        //     orArray[i] = i + 1;
+        // }
+
+        // for(int i = 0; i < n; i++) {
+        //     if(arr[i] != orArray[i]) {
+        //         System.out.println(orArray[i]);
+        //         break;
+        //     }
+        // }
+
+
+        // 5. Find the largest and smallest number in an array.
+
+        // System.out.print("Enter the value of n: ");
+        // int n = scanner.nextInt();
+
+        // System.out.println();
+
+        // int[] arr = new int[n];
+
+        // for(int i = 0; i < n; i++) {
+        //     System.out.print("Enter a element: ");
+        //     arr[i] = scanner.nextInt();
+        // }
+
+        // System.out.println();
+
+        // int currentLarge = 0;
+        // int currentSmall = 0;
+        // int largestNumber = arr[currentLarge];
+        // int smallestNumber = arr[currentSmall];
+
+        // for(int i = 0; i < n; i++) {
+        //     if(arr[currentLarge] < arr[i]) {
+        //         currentLarge = i;
+        //     } 
+        // }
+
+        // for(int i = 0; i < n; i++) {
+        //     if(arr[currentSmall] > arr[i]) {
+        //         currentSmall = i;
+        //     } 
+        // }
+
+        // System.out.printf("The Smallest value in the array is %d.\n", arr[currentSmall]);
+        // System.out.printf("The Largest value in the array is %d.\n", arr[currentLarge]);
 
         scanner.close();
 
